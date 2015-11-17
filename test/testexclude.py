@@ -13,7 +13,7 @@ def test_takes_a_list_and_object_as_argument():
     exclude("kjkj")
     exclude([1, 2, 3])
 
-def test_should_return_list():
+def test_should_return_list(1):
     result = exclude([1, 2, 3], 4)
 
     # result should  be a list
